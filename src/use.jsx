@@ -12,7 +12,7 @@ const MyComponent = () => {
    
     const handleButtonClick = () => {
 
-      const message = `http://n.vipinfo.in/msg/?name=${name1}&&name2=${name2}`; // Replace with the desired message
+      const message = `https://happy-birthday-iota-bay.vercel.app/?name=${name1}&&name2=${name2}`; // Replace with the desired message
   
       const url = `https://api.whatsapp.com/send?phone=&text=${encodeURIComponent(message)}`;
       window.open(url);
