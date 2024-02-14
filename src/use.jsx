@@ -8,12 +8,11 @@ const MyComponent = () => {
    const useparams= new URLSearchParams(keyvalue)
    const name1 =useparams.get('name')
    const name2 =useparams.get('name2')
-    const name12=name1.split(" ").join('-')
-    const name22=name2.split(" ").join('-')
+   
    
     const handleButtonClick = () => {
 
-      const message = `http://n.vipinfo.in/msg/?name=${name12}&&name2=${name22}`; // Replace with the desired message
+      const message = `http://n.vipinfo.in/msg/?name=${name1}&&name2=${name2}`; // Replace with the desired message
   
       const url = `https://api.whatsapp.com/send?phone=&text=${encodeURIComponent(message)}`;
       window.open(url);
