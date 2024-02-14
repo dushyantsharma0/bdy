@@ -63,6 +63,7 @@
     position: absolute;
     right: 170px;
     top: 350px;
+    font-weight: 900;
    }
    @keyframes icn {
     from {
@@ -91,6 +92,7 @@
     position: absolute;
     right: 200px;
     top: 590px;
+    font-weight: 900;
    }
    @keyframes icn2 {
     from {
