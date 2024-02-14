@@ -1,0 +1,41 @@
+.btn{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://media.tenor.com/O7B14UEdvxQAAAAj/hasher-happy-sticker.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100%;
+ font-size: 50px;
+ font-weight: 900;
+}
+.inp{
+  width:40%;
+   height:30px;
+   font-size: 15px;
+   border-radius: 20px;
+   border:1px solid #000000;
+   outline: none;
+   background: #cdd473;
+   padding-left: 10px;
+   box-sizing: border-box;
+   margin-right: 12px;
+   margin-left: 12px;
+
+
+}.mnbtn{
+  width:40%;
+  height:30px;
+  font-size: 20px;
+  margin-left:30% ;
+  border-radius: 10px;
+  background-color: rgb(142, 199, 142);
+  border: none;
+  outline: none;
+  font-weight: 900;
+  margin-top: 10px;
+
+
+
+}
+
+
